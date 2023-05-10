@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,759;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.p{
+  font-family: 'Montserrat', sans-serif;
+  color: gray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Nav & Navigation */
+.backcolor {
+  background-color: #76BA99;
+}
+
+.row-welcome{
+  background-color: #76BA99;
+  color:white;
+  margin: 0%;
+  padding: 3% 10%;
+}
+
+.navbartop{
+  background-color: #76BA99;
+  color:white;
+  margin: 0%;
+  padding: 1%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 4.5rem 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.title{
+  padding: 20% 0% 0%;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.tradeimg{
+  transform: rotate(22.5deg);
+}
+
+
+/* Box */
+.icon {
+  height:  4rem;
+  margin: 8%;
+  color:#ADCF9F;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+.custom-card-gray {
+  text-align: center;
+  padding: 50% 10%;
+
+  color: var(--gray);
+}
+
+.custom-card:hover {
+  color: var(--white) !important;
+  background: var(--pink);
+}
+
+.custom-card i {
+  font-size: 60px;
+  color: var(--gray);
+}
+
+.custom-card-gray i {
+  font-size: 60px;
+}
+
+.custom-card h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.custom-card-gray h4 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.custom-card p {
+  padding: 0 5%;
+  font-size: 19px;
+  color: var(--gray);
+}
+
+.custom-card-gray p {
+  padding: 0 5%;
+  font-size: 19px;
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+  padding: 6% 15%;
+  background-color: #76BA99;
+}
+
+/* Button */
+.usebtn{
+  margin: 1%;
+}
+
+.btn-lg:hover {
+  background-color: lightgray  !important;
+}
+
+/* Dropdown*/
+.dropdown{
+  padding: 10%;
+}
+
+.left{
+  text-align: left;
+  margin: 5px;
+}
+
+.left-container{
+  text-align: left;
+  padding:5% 30% 5%;
+}
+
+/* Table */
+
+.table{
+  padding: 5% 10%;
+}
+
+.errorMes{
+  padding: 2% 35% 0%;
+}
+
+.errorMes_search{
+  text-align: left !important;
+  margin-right: 50%;
+}
